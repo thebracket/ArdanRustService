@@ -1,0 +1,28 @@
+[package]
+name = "code"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members = [
+    "simple_http_server", 
+    "simple_tower_server", 
+    "simple_tower_server_mut",
+    "simple_tower_server_multi_state", 
+    "simple_nested", 
+    "simple_nested_state", 
+    "hyper_client", 
+    "status_codes", 
+    "axum_error_handling", 
+    "static_content", 
+    "axum_headers", 
+    "axum_header_layer", 
+    "axum_header_layer_inject", 
+    "axum_compression", 
+    "axum_service_builder", 
+    "axum_merge", 
+    "axum_tracing_minimal", 
+    "axum_tracing_tower", "axum_spans_own", "trace_to_file", "trace_to_json", "axum_openapi", 
+]
