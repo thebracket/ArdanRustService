@@ -29,13 +29,17 @@
     - [Axum Spans](./axum_spans.md)
     - [Logging to a File](./axum_file_log.md)
     - [Structured Logging to JSON](./axum_log_json.md)
+    - [OpenTelemetry](./otel_top.md)
+        - [Hello Telemetry](./otel_hello.md)
 - [OpenAPI Documentation](./openapi.md)
 - [Handling Service Configuration](./config_top.md)
+    - [Environment Variables with .env](./config_dot_env.md)
+    - [The Config Crate - Basics](./config_crate.md)
+    - [Loading Config via HTTP](./config_http.md)
+    - [CLI configuration with Clap](./config_clap.md)
+    - [Recap](./config_recap1.md)
 
-# OpenTelemetry
-# Configuration
-# gRPC with Tonic
-# Using RabbitMQ
+# OpenTelemetry (finish)
 # Service Deployment
 # Service Design
 
