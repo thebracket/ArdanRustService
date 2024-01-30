@@ -257,6 +257,30 @@ dependencies = [
 ]
 
 [[package]]
+name = "axum_extract_headers"
+version = "0.1.0"
+dependencies = [
+ "axum 0.7.4",
+ "tokio",
+]
+
+[[package]]
+name = "axum_extract_path"
+version = "0.1.0"
+dependencies = [
+ "axum 0.7.4",
+ "tokio",
+]
+
+[[package]]
+name = "axum_extract_query"
+version = "0.1.0"
+dependencies = [
+ "axum 0.7.4",
+ "tokio",
+]
+
+[[package]]
 name = "axum_header_layer"
 version = "0.1.0"
 dependencies = [

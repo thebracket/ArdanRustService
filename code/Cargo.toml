@@ -9,6 +9,9 @@ edition = "2021"
 members = [
     # REST Service Section
     "rest_service/simple_http_server", # Used in simple_http_server.md
+    "rest_service/axum_extract_path", # Used in axum_extractors_path.md
+    "rest_service/axum_extract_query", # Used in axum_extractors_query.md
+    "rest_service/axum_extract_headers", # Used in axum_extractors_headers.md
     "rest_service/simple_tower_server", # Used in simple_tower_layer.md
     "rest_service/simple_tower_server_mut", # Used in simple_tower_layer_mut.md
     "rest_service/simple_tower_server_multi_state", # Used in simple_tower_layer_multi_state.md
