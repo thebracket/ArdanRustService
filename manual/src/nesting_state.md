@@ -4,7 +4,7 @@ You can add `State` and layers to nested services. The only potential surprise i
 
 Let's demonstrate this by adding some state to our previous example.
 
-> The code for this is in `code/simple_nested_state`
+> The code for this is in `code/rest_service/simple_nested_state`
 
 ```rust
 use std::sync::Arc;

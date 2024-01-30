@@ -6,7 +6,7 @@ The `config` crate supports reading configuration from a number of sources, and 
 
 Let's start with a minimal test.
 
-> The code for this is in `code/config_minimal`.
+> The code for this is in `code/config/config_minimal`.
 
 We'll first make a project and add some dependencies:
 

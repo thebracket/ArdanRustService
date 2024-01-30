@@ -4,7 +4,7 @@ You saw in *Rust Foundations* that you can add spans to functions to track execu
 
 Spans work as they did before:
 
-> The code for this is in `code/axum_spans_own`.
+> The code for this is in `code/tracing/axum_spans_own`.
 
 ```rust
 use axum::{response::Html, routing::get, Router};

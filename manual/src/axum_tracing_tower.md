@@ -6,7 +6,7 @@ Maybe we'd also like to log everything the webserver itself is doing (that can b
 cargo add tower_http -F trace
 ```
 
-> The code for this is in `code/axum_tracing_tower`.
+> The code for this is in `code/tracing/axum_tracing_tower`.
 
 Then we have to add two lines of code:
 
@@ -49,6 +49,4 @@ We've added `TraceLayer` and a `use tower_http::trace::TraceLayer` statement. No
 2024-01-15T17:45:38.054783Z DEBUG request{method=GET uri=/ version=HTTP/1.1}: tower_http::trace::on_response: finished processing request latency=0 ms status=200
 ```
 
-> Note that you can add `TraceLayer` to indivual routers if you want to only log a specific portion of what's going on.
-
-TODO: Spans
+> Note that you can add `TraceLayer` to individual routers if you want to only log a specific portion of what's going on.

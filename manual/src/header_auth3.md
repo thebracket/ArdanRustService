@@ -1,5 +1,7 @@
 # Middleware Auth with Injection
 
+> The code for this is in `code/rest_service/axum_header_layer`.
+
 You probably want your functions to be able to know about the authenticated user. If they aren't authenticated, you are handling that---but what about passing information about them to handlers? Middleware request functions can *inject* extension data into the pipeline:
 
 ```rust

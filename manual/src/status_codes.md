@@ -5,7 +5,7 @@ used the HTTP status code system at all.
 
 Let's start rectifying that by learning how to return status codes from web handlers.
 
-> The code for this is in `code/status_codes`
+> The code for this is in `code/rest_service/status_codes`
 
 ```rust
 use axum::{routing::get, Router, http::StatusCode};

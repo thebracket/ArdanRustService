@@ -8,7 +8,7 @@ Now we can start to write handlers that use Rust's regular error-handling syntax
 
 ## Fallible Handlers with StatusCode Fallback
 
-> The code for this is in `code/axum_error-handling`.
+> The code for this is in `code/rest_service/axum_error-handling`.
 
 Let's look at some example code:
 

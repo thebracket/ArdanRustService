@@ -2,7 +2,7 @@
 
 Now let's build a simple web application and instrument it with OpenTelemetry.
 
-> The code for this is in `code/otel_minimal`
+> The code for this is in `code/tracing/otel_minimal`
 
 Let's start a project:
 

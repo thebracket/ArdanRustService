@@ -1,6 +1,6 @@
 # Serving Static Content with Tower
 
-> The code for this is in `code/static_content`.
+> The code for this is in `code/rest_service/static_content`.
 
 We'll need to add a dependency for Tower itself and the Tower HTTP helper system:
 

@@ -16,7 +16,7 @@ cargo add tokio -F full
 
 Then let's build a simple dual-service server:
 
-> The code for this is in `code/simple_nested`.
+> The code for this is in `code/rest_service/simple_nested`.
 
 ```rust
 use axum::{response::Html, routing::get, Router};

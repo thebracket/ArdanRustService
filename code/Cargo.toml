@@ -7,30 +7,37 @@ edition = "2021"
 
 [workspace]
 members = [
-    "simple_http_server", 
-    "simple_tower_server", 
-    "simple_tower_server_mut",
-    "simple_tower_server_multi_state", 
-    "simple_nested", 
-    "simple_nested_state", 
-    "hyper_client", 
-    "status_codes", 
-    "axum_error_handling", 
-    "static_content", 
-    "axum_headers", 
-    "axum_header_layer", 
-    "axum_header_layer_inject", 
-    "axum_compression", 
-    "axum_service_builder", 
-    "axum_merge", 
-    "axum_tracing_minimal", 
-    "axum_tracing_tower", 
-    "axum_spans_own", 
-    "trace_to_file", 
-    "trace_to_json", 
-    "axum_openapi", 
-    "envfile", 
-    "config_minimal", 
-    "config_http", 
-    "config_clap", "otel_minimal", 
+    # REST Service Section
+    "rest_service/simple_http_server", # Used in simple_http_server.md
+    "rest_service/simple_tower_server", # Used in simple_tower_layer.md
+    "rest_service/simple_tower_server_mut", # Used in simple_tower_layer_mut.md
+    "rest_service/simple_tower_server_multi_state", # Used in simple_tower_layer_multi_state.md
+    "rest_service/simple_nested", # Used in simple_nested.md
+    "rest_service/simple_nested_state", # Used in nesting_state.md
+    "rest_service/hyper_client", # Used in calling_other_services.md
+    "rest_service/status_codes",  # Used in status_codes.md
+    "rest_service/axum_error_handling", # Used in error_handling.md
+    "rest_service/static_content", # Used in static_content.md
+    "rest_service/axum_headers", # Used in header_auth.md
+    "rest_service/axum_header_layer",  # Used in header_auth2.md
+    "rest_service/axum_header_layer_inject", # Used in header_auth3.md
+    "rest_service/axum_compression", # Used in layer_router.md
+    "rest_service/axum_service_builder", # Used in layer_router.md
+
+    # Tracing Section
+    "tracing/axum_tracing_minimal", # Used in axum_tracing_minimal.md
+    "tracing/axum_tracing_tower", # Used in axum_tracing_tower.md
+    "tracing/axum_spans_own", # Used in axum_spans_own.md and axum_spans.md
+    "tracing/trace_to_file", # Used in axum_file_log.md
+    "tracing/trace_to_json", # Used in axum_log_json.md
+    "tracing/otel_minimal", # Used in otel_hello.md
+
+    # OpenAPI Section
+    "openapi/axum_openapi", # Used in openapi.md
+
+    # Configuration
+    "config/envfile", # Used in config_dot_env.md
+    "config/config_minimal", # Used in config_crate.md
+    "config/config_http", # Used in config_http.md
+    "config/config_clap", # Used in config_clap.md
 ]

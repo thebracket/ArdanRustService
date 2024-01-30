@@ -6,6 +6,8 @@ We want to add a command `serve`, with optional port and address parameters---an
 
 Here's a working example. Let's work through it:
 
+> The code is in `code/config/config_clap`.
+
 ```rust
 use axum::{response::Html, routing::get, Router};
 use clap::{value_parser, Arg, Command};

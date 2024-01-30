@@ -12,7 +12,7 @@ cargo add tower_http -F compression_full
 
 We'll also use a pre-canned file `war_and_peace.txt`---the entirety of War and Peace to demonstrate compression. Compression isn't very useful at all on tiny files, and the default `CompressionLayer` won't compress small responses (you can customize this with the `compress_when` function). So here's a complete webserver with compression enabled:
 
-> The code is in `code/axum_compression`
+> The code is in `code/rest_service/axum_compression`
 
 ```rust
 use axum::{response::{Html, IntoResponse}, routing::get, Router};
@@ -45,7 +45,7 @@ Open a browser and load `http://localhost:3001`. Now look in the developer tools
 
 If you need a lot of layers, you can combine them with the `ServiceBuilder`. Let's also use a `CorsLayer` (from `tower_http` - it requires the feature `cors`) and a `ConcurencyLimitLayer` (which requires `cargo add tower -F limits`):
 
-> The code for this is in `code/axum_service_builder`
+> The code for this is in `code/rest_service/axum_service_builder`
 
 ```rust
 use axum::{response::{Html, IntoResponse}, routing::get, Router, http::Method};

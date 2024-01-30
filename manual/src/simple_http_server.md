@@ -11,7 +11,7 @@ cargo add tokio -F full
 
 We can change the `main.rs` file to bootstrap a very simple HTTP server, much like we did in Rust Foundations:
 
-> This example is in the `code/simple_http_server` project example.
+> This example is in the `code/rest_service/simple_http_server` project example.
 
 ```rust
 use axum::{response::Html, routing::get, Router};

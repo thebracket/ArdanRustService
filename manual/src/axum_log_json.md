@@ -2,7 +2,7 @@
 
 You might not want freeform text, and prefer to log to a structured layout such as JSON. 
 
-> The code for this is in `code/trace_to_json`.
+> The code for this is in `code/tracing/trace_to_json`.
 
 You can add `json` support to `tracing_subscriber` by adding the `json` feature:
 

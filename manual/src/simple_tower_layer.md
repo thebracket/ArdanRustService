@@ -6,7 +6,7 @@ Let's make a *very simple* example of a Tower service. We'll share some configur
 
 We'll start with the `simple_http_server` code and add to it.
 
-> The code for this is in `code/simple_tower_server`.
+> The code for this is in `code/rest_service/simple_tower_server`.
 
 ```rust
 use axum::{response::Html, routing::get, Router};

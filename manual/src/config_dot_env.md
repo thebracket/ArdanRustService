@@ -2,7 +2,7 @@
 
 Let's start with `.env` support. In Rust Foundations and other videos, we frequently used a `.env` file to store environment variables---and used the `dotnev` crate to load them. This remains a good practice, even if you won't use it on production; it provides a quick and easy way to tweak your setup, especially during development.
 
-> The code for this may be found in `code/envfile`.
+> The code for this may be found in `code/config/envfile`.
 
 Let's start a new project:
 

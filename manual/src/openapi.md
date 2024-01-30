@@ -13,6 +13,8 @@ cargo add utoipa-redoc -F axum # For redoc format
 cargo add utoipa-swagger-ui -F axum # It supports multiple webservers
 ```
 
+The code for this is in `code/openapi/axum_openapi`.
+
 ```rust
 use axum::{Json, routing::get, Router};
 use serde::Serialize;

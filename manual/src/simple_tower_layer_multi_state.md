@@ -11,7 +11,7 @@ State is deliberately lightweight, and doesn't cause much extra processing. Laye
 
 Let's rewrite out previous example using extensions, and have two extensions:
 
-> The code for this example is in `code/simple_tower_server_multi_state`.
+> The code for this example is in `code/rest_service/simple_tower_server_multi_state`.
 
 ```rust
 use axum::Extension;

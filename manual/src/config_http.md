@@ -2,6 +2,8 @@
 
 HTTP configuration is a bit more complicated, because it will use an HTTP(s) source asynchronously. `Reqwest` isn't baked directly into `config`, so we have to provide a helper. This is very flexible because you can customize the request to match your requirements. It's also a bit more work.
 
+> The code is in `code/config/config_http`.
+
 Let's create another project:
 
 ```bash

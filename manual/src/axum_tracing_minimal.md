@@ -13,6 +13,8 @@ cargo add tracing_subscriber
 
 And we'll paste in a tracing example:
 
+> The code is in `code/tracing/axum_tracing_minimal`.
+
 ```rust
 use axum::{response::Html, routing::get, Router};
 use tracing::info;

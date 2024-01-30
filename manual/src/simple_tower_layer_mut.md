@@ -4,7 +4,7 @@ State and layers still obey Rust's rules: you can't change shared state without 
 
 We'll start with the `simple_tower_server` code and add to it.
 
-> The code for this is in `code/simple_tower_server_mut`.
+> The code for this is in `code/rest_service/simple_tower_server_mut`.
 
 ```rust
 use axum::{response::Html, routing::get, Router};

@@ -2,7 +2,7 @@
 
 Logging to `stdout` is often enough---if you are using `systemd` on Linux, it logs all of your standard output for you. But for larger systems, you probably want a more structured system.
 
-> The code for this is in `code/trace_to_file`
+> The code for this is in `code/tracing/trace_to_file`
 
 The `tracing-appender` crate provides great log file management features. Add it with `cargo add -F tracing_appender`. Using it is really straightforward:
 

@@ -2,7 +2,7 @@
 
 Axum combines with Tower to let you build your own middleware---that is code that runs as part of the routing service, intercepting requests on their way in.
 
-> The code for this is in `code/axum_header_layer`.
+> The code for this is in `code/rest_service/axum_header_layer`.
 
 You can write middleware as a function:
 

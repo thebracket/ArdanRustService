@@ -4,6 +4,8 @@ It's really common for REST services to require additional header information. A
 
 ## Accessing Headers in Extractors
 
+> The code is in `code/rest_service/axum_headers`.
+
 Here's a simple program that receives the headers for a get request:
 
 ```rust

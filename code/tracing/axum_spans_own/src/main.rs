@@ -27,6 +27,7 @@ async fn main() {
 
     info!("Starting server");
 
+    // Remove the `.layer` call to only show your own spans
     let app =
         Router::new()
             .route("/", get(handler))
