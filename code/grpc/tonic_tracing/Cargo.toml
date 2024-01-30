@@ -1,0 +1,22 @@
+[package]
+name = "tonic_tracing"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]] # Bin to run the HelloWorld gRPC server
+name = "tracing-server"
+path = "src/server.rs"
+
+[[bin]] # Bin to run the HelloWorld gRPC client
+name = "tracing-client"
+path = "src/client.rs"
+
+[dependencies]
+tonic = "0.10"
+prost = "0.12"
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+
+[build-dependencies]
+tonic-build = "0.10"

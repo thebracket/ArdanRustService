@@ -42,5 +42,11 @@ members = [
     "config/envfile", # Used in config_dot_env.md
     "config/config_minimal", # Used in config_crate.md
     "config/config_http", # Used in config_http.md
-    "config/config_clap", # Used in config_clap.md
+    "config/config_clap",  # Used in config_clap.md
+
+    # gRPC
+    "grpc/hello_tonic", # Used in grpc_hello.md
+    "grpc/tonic_stream", # Used in grpc_stream.md
+    "grpc/tonic_auth", # Used in grpc_auth.md
+    "grpc/tonic_tracing", # Used in grpc_tracing.md
 ]

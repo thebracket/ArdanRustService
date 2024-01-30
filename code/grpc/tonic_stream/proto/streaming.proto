@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package streaming;
+
+service streaming {
+    rpc Squares(Start) returns (stream Square);
+}
+
+message Start {
+    int32 n = 1;
+}
+
+message Square {
+    int32 n = 1;
+}

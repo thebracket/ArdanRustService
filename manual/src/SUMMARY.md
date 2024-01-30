@@ -43,8 +43,20 @@
     - [Loading Config via HTTP](./config_http.md)
     - [CLI configuration with Clap](./config_clap.md)
     - [Recap](./config_recap1.md)
+- [gRPC](./grpc_intro.md)
+    - [Hello Tonic - Protocol Definition](./grpc_hello.md)
+    - [Hello Tonic - Project Definition and Build](./grpc_hello2.md)
+    - [Hello Tonic - The Server](./grpc_hello3.md)
+    - [Hello Tonic - The Client](./grpc_hello4.md)
+    - [gRPC Streaming](./grpc_stream.md)
+    - [gRPC Streaming - Protocol Definition](./grpc_stream2.md)
+    - [gRPC Streaming - The Server](./grpc_stream3.md)
+    - [gRPC Streaming - The Client](./grpc_stream4.md)
+    - [Recap So Far](./grpc_recap1.md)
+    - [Authentication](./grpc_auth.md)
+    - [Tracing](./grpc_tracing.md)
+    - [When to use gRPC](./grpc_conclude.md)
 
-# OpenTelemetry (finish)
 # Service Deployment
 # Service Design
 
