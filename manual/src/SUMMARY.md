@@ -8,6 +8,7 @@
         - [Path Extraction](./axum_extractors_path.md)
         - [Query Extraction](./axum_extractors_query.md)
         - [Header Extraction](./axum_extractors_headers.md)
+        - [More Extractors](./axum_extractors_more.md)
     - [Add a Simple Tower Layer (State)](./simple_tower_layer.md)
     - [Add a Simple Tower Layer (Mutable State)](./simple_tower_layer_mut.md)
     - [Multiple States - Extension Layers](./simple_tower_layer_multi_state.md)
