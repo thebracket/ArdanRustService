@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>WebSocket Echo Client</title>
+</head>
+<body>
+    <input type="text" id="message" value="Hello, world!">
+    <input type="button" id="send" value="Send">
+
+    <script>
+        var ws = new WebSocket("ws://localhost:3001/ws");
+        ws.onopen = function() {
+            console.log("onopen");
+        };
+        ws.onmessage = function(e) {
+            console.log("onmessage: " + e.data);
+        };
+        ws.onclose = function() {
+            console.log("onclose");
+        };
+        ws.onerror = function(e) {
+            console.log("onerror: " + e.data);
+        };
+
+        document.getElementById("send").onclick = function() {
+            var message = document.getElementById("message").value;
+            ws.send(message);
+        };
+    </script>
+</body>
+</html>

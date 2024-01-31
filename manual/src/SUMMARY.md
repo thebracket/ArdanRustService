@@ -56,6 +56,10 @@
     - [Authentication](./grpc_auth.md)
     - [Tracing](./grpc_tracing.md)
     - [When to use gRPC](./grpc_conclude.md)
+- [Web Sockets](./ws_intro.md)
+    - [Minimal Echo Server](./ws_echo_server.md)
+    - [A native WS client](./ws_client.md)
+    - [JSON](./ws_json.md)
 
 # Service Deployment
 # Service Design

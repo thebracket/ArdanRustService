@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>WebSocket Echo Client</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="600" height="600"></canvas>
+    <div id="counter"></div>
+
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext("2d");
+        const requestNext = { NextPoint : null };
+        const start = Date.now();
+        let red = 0;
+        let iterations = 0;
+
+        var ws = new WebSocket("ws://localhost:3001/ws");
+        ws.onopen = function() {
+            console.log("onopen");
+            ws.send(JSON.stringify(requestNext));
+        };
+        ws.onmessage = function(e) {
+            let message = JSON.parse(e.data);
+            // Move to the center
+            message.x += 300;
+            message.y += 300;
+            ctx.fillStyle = "rgb(" + red + ", 0, 0)";
+            red += 1;
+            red %= 255;
+            ctx.fillRect(message.x, message.y, 1, 1);
+            iterations += 1;
+            document.getElementById("counter").innerHTML = iterations;
+
+            if (iterations < 200000) {
+                ws.send(JSON.stringify(requestNext));
+            } else {
+                const end = Date.now();
+                const time = end - start;
+                const speed = iterations / time;
+                document.getElementById("counter").innerHTML = "Iterations: " + iterations + " Time: " + time + " Speed: " + speed.toFixed(2) + " points/ms";
+                ws.send(JSON.stringify({ Quit : null }));
+            }
+        };
+        ws.onclose = function() {
+            console.log("onclose");
+        };
+        ws.onerror = function(e) {
+            console.log("onerror: " + e.data);
+        };
+    </script>
+</body>
+</html>

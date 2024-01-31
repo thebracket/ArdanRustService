@@ -49,4 +49,9 @@ members = [
     "grpc/tonic_stream", # Used in grpc_stream.md
     "grpc/tonic_auth", # Used in grpc_auth.md
     "grpc/tonic_tracing", # Used in grpc_tracing.md
+
+    # WebSockets
+    "wss/ws_echo", # Used in ws_echo_server.md
+    "wss/ws_client", # Used in ws_client.md
+    "wss/ws_json", 
 ]
