@@ -53,5 +53,8 @@ members = [
     # WebSockets
     "wss/ws_echo", # Used in ws_echo_server.md
     "wss/ws_client", # Used in ws_client.md
-    "wss/ws_json", 
+    "wss/ws_json",  # Used in ws_json.md
+
+    # Deployment
+    "deploy_native/deploy_bookstore",
 ]

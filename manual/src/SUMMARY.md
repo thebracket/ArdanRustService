@@ -60,7 +60,10 @@
     - [Minimal Echo Server](./ws_echo_server.md)
     - [A native WS client](./ws_client.md)
     - [JSON](./ws_json.md)
+- [Service Deployment](./svc_deploy_intro.md)
+    - [Test Service](./svc_deploy_test.md)
+    - [Native Host Deployment](./svc_deploy_native.md)
+    - [Docker Deployment](./svc_deploy_docker.md)
 
-# Service Deployment
 # Service Design
 

@@ -3,3 +3,5 @@ service/target
 /target
 manual/book
 signoz
+code/deploy_native/deploy_bookstore/auth.db*
+code/deploy_native/deploy_bookstore/bookstore.db*

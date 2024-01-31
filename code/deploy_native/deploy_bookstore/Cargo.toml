@@ -1,0 +1,20 @@
+[package]
+name = "deploy_bookstore"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.79"
+axum = "0.7.4"
+config = "0.13.4"
+dotenvy = "0.15.7"
+serde = { version = "1.0.196", features = ["derive"] }
+sqlx = { version = "0.7.3", features = ["runtime-tokio-rustls", "sqlite", "chrono"] }
+tokio = { version = "1.35.1", features = ["full"] }
+tower = "0.4.13"
+tower-http = { version = "0.5.1", features = ["fs", "cors"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+uuid = { version = "1.7.0", features = ["v4"] }
