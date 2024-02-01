@@ -75,3 +75,4 @@
     - [Combining Services into a Modular Monolith](./design_svc_modular_monolith.md)
     - [Service Exposure](./design_svc_exposure.md)
     - [Scaling Out](./design_svc_scaling_out.md)
+- [Wrap Up](./wrap.md)
