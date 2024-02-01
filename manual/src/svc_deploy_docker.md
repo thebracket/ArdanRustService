@@ -54,7 +54,6 @@ services:
       - APP_STATIC_CONTENT=/bin/static_html
       - AUTH_DB_FILENAME=/db/auth.db
       - BOOKSTORE_DB_FILENAME=/db/bookstore.db
-      - RUST_LOG=debug
     volumes:
       - db:/db
 volumes:
