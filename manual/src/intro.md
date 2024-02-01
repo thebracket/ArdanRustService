@@ -1,5 +1,7 @@
 # Introduction
 
+> All of this class material, including the code, is available at [this Github repo](https://github.com/thebracket/ArdanRustService)
+
 This class will cover the ins and outs of integrating Rust into a Service-Oriented-Architecture. In this class, we'll go over:
 
 * Building a REST service

@@ -22,6 +22,5 @@ impl AuthConfiguration {
             .try_deserialize()?;
 
         Ok(settings)
-
     }
 }

@@ -64,6 +64,14 @@
     - [Test Service](./svc_deploy_test.md)
     - [Native Host Deployment](./svc_deploy_native.md)
     - [Docker Deployment](./svc_deploy_docker.md)
-
-# Service Design
-
+- [Service Design](./design_intro.md)
+    - [Understanding Your Company Architecture](./design_company_arch.md)
+    - [Designing Individual Services](./design_svc_intro.md)
+        - [Layout](./design_svc_layout.md)
+        - [Per-Service Configuration](./design_svc_config.md)
+        - [Per-Service Database](./design_svc_db.md)
+        - [Layers and API Systems for Other Systems](./design_svc_layer.md)
+        - [Finally, the service module itself](./design_svc_module.md)
+    - [Combining Services into a Modular Monolith](./design_svc_modular_monolith.md)
+    - [Service Exposure](./design_svc_exposure.md)
+    - [Scaling Out](./design_svc_scaling_out.md)
