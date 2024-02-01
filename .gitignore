@@ -3,5 +3,6 @@ service/target
 /target
 manual/book
 signoz
-code/deploy_native/deploy_bookstore/auth.db*
-code/deploy_native/deploy_bookstore/bookstore.db*
+no_workspace/deploy_bookstore/auth.db*
+no_workspace/deploy_bookstore/bookstore.db*
+no_workspace/deploy_bookstore/target

@@ -6,6 +6,7 @@ use anyhow::Result;
 pub struct ServiceConfig {
     pub listen_address: String,
     pub listen_port: String,
+    pub static_content: String,
 }
 
 impl ServiceConfig {

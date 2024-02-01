@@ -55,6 +55,5 @@ members = [
     "wss/ws_client", # Used in ws_client.md
     "wss/ws_json",  # Used in ws_json.md
 
-    # Deployment
-    "deploy_native/deploy_bookstore",
+    # Deployment - see the `no_workspace` folder
 ]

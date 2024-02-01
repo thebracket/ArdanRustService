@@ -24,7 +24,7 @@ async fn main() -> Result<()> {
     // The default web server
     let static_content = ServiceBuilder::new()
         .layer(CorsLayer::very_permissive())
-        .service(ServeDir::new("static_html"));
+        .service(ServeDir::new(&service_settings.static_content));
 
     // Build the master router
     let master_router = axum::Router::new()
