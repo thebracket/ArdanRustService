@@ -26,7 +26,15 @@ This class will cover the ins and outs of integrating Rust into a Service-Orient
     * Files
     * HTTP sources
     * The Command Line
-
+* gRPC
+    * Tonic - the gRPC server
+    * Streaming
+* Web Sockets
+    * Web Socket server
+    * Web Sockets and Serialization
+    * Web Socket Client
+* Service Deployment
+* Service Design
 
 ## About Herbert Wolverson
 
